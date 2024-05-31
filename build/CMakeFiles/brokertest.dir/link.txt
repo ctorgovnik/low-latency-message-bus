@@ -1,0 +1,1 @@
+/usr/bin/clang++ -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/brokertest.dir/tests/broker_tests.cpp.o CMakeFiles/brokertest.dir/src/broker.cpp.o -o brokertest  lib/libgtestd.a lib/libgtest_maind.a lib/libgtestd.a 
